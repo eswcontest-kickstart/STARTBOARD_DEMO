@@ -1,37 +1,10 @@
-long dur; 
 int dis;
+int dur;
 int recentavr;
-//int queue[100]={};
-int frnt = -1;
-int rear = 2;
 int rondo=5;
 int room[10];
 int MAX;
 int recmsg;
-
-/*
-void push(int x) {
-    rear++;
-    queue[rear] = x;
-}
-int pop() {
-    if (empty()==1) return -1;
-    else{
-        frnt++;
-        return queue[frnt];
-    } 
-}
-int size() {
-    return rear-frnt;
-}
-int back() {
-    if (empty() == 1) return -1;
-    else return queue[rear];
-}
-*/
-
-
-
 
 void setup() {
   pinMode(3, OUTPUT);
@@ -49,8 +22,6 @@ void loop() {
   digitalWrite(3, LOW);
   dur = pulseIn(2, HIGH);
   dis = dur * 0.034 / 2;
-  //Serial.print(dis);
-  //Serial.print("\n");
   
   room[rondo%5]=dis;
   recentavr=(room[0]+room[1]+room[2]+room[3]+room[4]+room[5]+room[6]+room[7]+room[8]+room[9])/3;
