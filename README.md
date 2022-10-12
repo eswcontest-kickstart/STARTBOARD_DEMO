@@ -1,6 +1,6 @@
 # Startboard_DEMO
 
-This is a demo project of a auto-kickboard renting system **STARTBOARD**.
+This is a demo project of a safety-prior kickboard renting service **STARTBOARD**.
 
 |To do|Status|Note
 |-|-|-|
