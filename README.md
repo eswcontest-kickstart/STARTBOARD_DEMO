@@ -11,3 +11,4 @@ This is a demo project of a auto-kickboard renting system **STARTBOARD**.
 |Helmet wearing detection with ai|Working on|Needs AI programming
 |Scooter passenger number detector design|✅|
 |Scooter passenger number detection system|Working on|Needs AI programming
+|Integrated app development|Working On|UI/UX improvment needed
